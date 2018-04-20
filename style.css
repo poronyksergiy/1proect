@@ -1,0 +1,163 @@
+/* test comments  */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul,h1,h2 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+p {
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url("images/asjdkahsd");
+}
+
+.clearFix:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.header {
+  padding: 15px;
+  background: #ccc;
+  text-align: center;
+  position: relative;
+}
+.phone {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.subHeader {
+  padding: 0 0 0 15px;
+  background: #eaeaea;
+}
+.colLeft {
+  float: left;
+}
+.nav {
+  float: right;
+}
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  font-size: 16px;
+  transition: all 0.3s;
+  display: block;
+  padding: 10px;
+  background: #c3bebe;
+}
+.nav li a:hover {
+  background: red;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.wrapper .main {
+  float: left;
+  width: 70%;
+  background: #cacaca;
+}
+.sidebar {
+  width: 30%;
+  float: right;
+}
+.container {
+  padding: 0 15px;
+  background: #e1e1e1;
+}
+.post {
+
+}
+
+.post .post_header {
+  padding: 15px;
+  background: #eaaaaa;
+  margin-bottom: 15px;
+}
+.post .post_header .post_title {
+  float: left;
+}
+.post .post_header .date {
+  float: right;
+}
+
+.post .post_body {
+  padding: 15px;
+}
+
+.post .post_avatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.post .post_wrapAvatar {
+  float: left;
+}
+.post .post_right {
+  float: right;
+}
+.sidebar .sidebar_head {
+  padding: 15px;
+}
+.sidebar .sidebar_body {
+  padding: 0 15px;
+}
+.boxes {
+  margin: 0 -15px;
+}
+.row {
+  margin-bottom: 15px;
+}
+.boxes .box {
+  float: left;
+  height: 200px;
+  margin: 0 15px;
+  background: red;
+  width: calc(33.3% - 30px);
+}
+.boxes .box_head {
+  float: left ;
+  height: 200px;
+  margin: 0 15px;
+  background: blue ;
+  width: 30%;
+}
+.boxes .box_body {
+  float: left;
+  height: 200px;
+  margin: 0 15px;
+  background: green;
+  width: 30%;
+}
+.boxes  {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
